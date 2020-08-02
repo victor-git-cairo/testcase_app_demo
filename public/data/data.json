@@ -1,0 +1,28 @@
+
+
+[{
+  "username": "john",
+  "firstName": "John",
+  "lastName": "Doe",
+  "gender": "Male",
+  "profileURL": "img/male.png",
+  "email": "john.doe@example.com"
+},
+{
+  "username": "jane",
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "gender": "Female",
+  "profileURL": "img/female.png",
+  "email": "jane.doe@example.com"
+}
+]
+
+
+
+  {"storyId": "12345", "test":[{ "testcase" : "300", "description" :"Bulk300 QuoteCreate"},{"testcase" : "10000", "description" :"Discount on Renewal"}]},
+  {"storyId": "78956", "test":[{ "testcase" : "265", "description" :"Bulk265 QuoteCreate"},{"testcase" : "20000", "description" :"Discount on Renewal"}]},
+  {"storyId": "95348", "test":[{ "testcase" : "478", "description" :"Bulk478 QuoteCreate"},{"testcase" : "30000", "description" :"Discount on Renewal"}]},
+  {"storyId": "34789", "test":[{ "testcase" : "784", "description" :"Bulk784 QuoteCreate"},{"testcase" : "40000", "description" :"Discount on Renewal"}]},
+  {"storyId": "85591", "test":[{ "testcase" : "246", "description" :"Bulk246 QuoteCreate"}]}
+

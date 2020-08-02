@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redundant Tests Api Demo</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Redundants Test Cases</h2>
+
+      <label for="name"> Item ID : </label>
+
+      <input
+        type="text"
+        id="itemID"
+        name="name"
+        required
+        minlength="4"
+        maxlength="15"
+        size="15"
+      />
+
+      <div>
+        <button>Show All</button>
+        <button id="serch-by-id">Filter</button>
+      </div>
+      <!-- alternative to tables in html -->
+      <!-- https://html-cleaner.com/features/replace-html-table-tags-with-divs/#:~:text=In%20the%20era%20of%20responsive,tags%20having%20the%20correct%20classes. -->
+      <div class="table-responsive">
+  <!-- table can be made responsive with bootstrap -->
+        <table  id="dup_tests_table" border="1">
+          <h2> Duplicated test cases</h2>
+          <thead>
+            <tr>
+              <th>Test ID</th>
+              <th>Test TitleDescription</th>
+            </tr>
+          </thead>
+        </table>
+
+        
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

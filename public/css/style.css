@@ -1,0 +1,54 @@
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  width: 80%;
+  margin: 2rem auto;
+  
+ 
+}
+
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+  color: red;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+
+/* Table Section */
+.rTable {
+  display: block;
+  width: 100%;
+}
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow{
+  clear: both;
+}
+.rTableHead, .rTableFoot{
+  background-color: #DDD;
+  font-weight: bold;
+}
+.rTableCell, .rTableHead {
+  border: 1px solid #999999;
+  float: left;
+  height: 17px;
+  overflow: hidden;
+  padding: 3px 1.8%;
+  width: 28%;
+}
+.rTable:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
